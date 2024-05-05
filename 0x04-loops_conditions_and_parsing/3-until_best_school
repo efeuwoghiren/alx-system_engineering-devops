@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Displays "Best school" 10 times 
+# using an UNTILL loop
+
+count = 0
+   untill [ $count -eq 10 ]
+          echo "Best school"
+done

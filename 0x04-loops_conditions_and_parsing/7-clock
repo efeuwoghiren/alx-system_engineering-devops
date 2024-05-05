@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Disolays the time for 12 hours and 59 minuites
+# Displays hours from 0 - 12
+# Displays minuites from 1 - 59
+
+hour = 0
+while [ $hour -le 12 ]
+do
+  echo "Hour : $hour"
+  minuites = 1
+  while [ $minuites -le 59 ]
+do
+  echo "$minuites"
+  (( minuites ++ ))
+done
